@@ -1,5 +1,6 @@
 # atualizar os pacotes
-sudo apt update && sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 
 # pacotes
 sudo apt install git curl build-essential dkms perl wget -y
