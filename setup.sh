@@ -33,5 +33,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
-gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36
+gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 48
 gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0
