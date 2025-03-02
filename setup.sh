@@ -38,4 +38,5 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0
 gsettings set org.gnome.desktop.interface monospace-font-name 'Monospace 18'
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 gsettings set org.gnome.desktop.interface enable-animations false
+gsettings set org.gnome.desktop.wm.preferences auto-raise true
 gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 0
