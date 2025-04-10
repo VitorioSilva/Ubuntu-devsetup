@@ -37,7 +37,7 @@ dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock
 transparency-mode FIXED
 gsettings set org.gnome.shell.extensions.dash-to-dock
-dash-max-icon-size 36
+dash-max-icon-size 48
 gsettings set org.gnome.shell.extensions.dash-to-dock
 background-opacity 0
 gsettings set org.gnome.desktop.interface monospace-font-name 'Monospace 18'
