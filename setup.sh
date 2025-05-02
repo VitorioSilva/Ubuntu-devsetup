@@ -1,6 +1,6 @@
 # atualizar os pacotes
-sudo apt update -y
-sudo apt upgrade -y
+sudo apt update
+sudo apt full-upgrade -y
 
 # pacotes
 sudo apt install -y git curl build-essential dkms perl wget gcc make \
@@ -11,7 +11,7 @@ libffi-dev liblzma-dev python3-openssl
 # Terminal ZSH
 sudo apt install zsh -y
 chsh -s /bin/zsh
-zsh
+exec zsh
 
 # Instalar Oh-my-zsh! -> https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
