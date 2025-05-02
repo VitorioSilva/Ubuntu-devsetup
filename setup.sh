@@ -8,10 +8,15 @@ default-libmysqlclient-dev libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
 libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev \
 libffi-dev liblzma-dev python3-openssl
 
+# Limpar histórico do Bash
+history -c
+cat /dev/null > ~/.bash_history
+rm -f ~/.bash_history
+
 # Terminal ZSH
 sudo apt install zsh -y
 chsh -s /bin/zsh
-exec zsh
+zsh
 
 # Instalar Oh-my-zsh! -> https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
