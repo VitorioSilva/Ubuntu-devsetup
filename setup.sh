@@ -42,5 +42,5 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.25
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces false
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
 gsettings set org.gnome.shell.extensions.dash-to-dock running-indicator-style 'DOTS'
-gsettings set org.gnome.desktop.interface monospace-font-name 'Monospace 18'
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+gsettings set org.gnome.desktop.interface monospace-font-name 'Monospace 18'
