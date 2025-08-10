@@ -4,9 +4,9 @@ sudo apt full-upgrade -y
 
 # pacotes
 sudo apt install -y git curl build-essential dkms perl wget gcc make \
-default-libmysqlclient-dev libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
+libmysqlclient-dev libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
 libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev \
-libffi-dev liblzma-dev python3-openssl
+libffi-dev liblzma-dev python3-openssl python3-dev python3-venv
 
 # Limpar histórico do Bash
 history -c
