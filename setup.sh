@@ -11,7 +11,7 @@ default-libmysqlclient-dev libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev \
 llvm libncurses-dev xz-utils tk-dev \
 libffi-dev liblzma-dev \
-python3-openssl python3-dev python3-venv
+python3-openssl python3-dev python3-venv python3-pip
 
 # Instalar ZSH
 sudo apt install -y zsh
