@@ -1,17 +1,18 @@
 # Atualizar sistema
 sudo apt update
 sudo apt full-upgrade -y
-sudo apt autoremove -y
+sudo apt autoremove --purge -y
 sudo apt autoclean
 
 # Ferramentas de desenvolvimento
 sudo apt install -y \
-git curl wget build-essential dkms perl gcc make \
-default-libmysqlclient-dev libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev \
-llvm libncurses-dev xz-utils tk-dev \
-libffi-dev liblzma-dev \
-python3-openssl python3-dev python3-venv python3-pip
+  git curl wget ca-certificates pkg-config gnupg \
+  build-essential dkms \
+  python3-dev python3-venv python3-pip python3-openssl \
+  libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
+  libsqlite3-dev libffi-dev liblzma-dev \
+  llvm libncurses-dev xz-utils tk-dev \
+  htop vim unzip
 
 # Instalar ZSH
 sudo apt install -y zsh
@@ -41,4 +42,3 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.0
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces false
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
-gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
