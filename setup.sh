@@ -2,11 +2,12 @@
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
+sudo apt autoclean
 
 # Ferramentas de desenvolvimento
 sudo apt install -y \
 git curl wget build-essential dkms perl gcc make \
-libmysqlclient-dev libssl-dev zlib1g-dev \
+default-libmysqlclient-dev libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev \
 llvm libncurses-dev xz-utils tk-dev \
 libffi-dev liblzma-dev \
